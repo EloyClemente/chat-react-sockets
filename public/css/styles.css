@@ -1,0 +1,78 @@
+
+.css_container{
+    width: 100%;
+    height: calc(100vh - 150px);
+    padding: 1%;
+}
+
+
+.css_container-titulo-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.css_titulo{
+    min-width: 200px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: blue;
+}
+
+.css_inputUser{
+    max-width: 150px;
+}
+
+.css_pantalla{
+    width: 100%;
+    height: 100%;
+    border: 1px solid silver;
+    box-shadow: inset 1px 1px 3px #666;
+    border-radius: 3px;
+    padding-top: 10px;
+    /* overflow: scroll; */
+    overflow-x: hidden;
+}
+
+.css_entrada-nombre{
+    width: 100%;
+    line-height: 24px;
+    padding-left: 10px;
+    color: #009688;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.css_entrada-mensaje{
+    width: 100%;
+    line-height: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.css_container_inputText-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid gainsboro; */
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+.css_inputText{
+    width: 100%;
+    margin-right: 10px;
+}
+
+
+.btn{
+    min-width: 100px;
+    transform: translateY(5px);
+}
